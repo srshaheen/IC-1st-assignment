@@ -17,15 +17,18 @@ body {
 }
 
 .timeline {
+  width: 100%;
   position: relative;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .timeline::before {
   content: "";
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 25%;
   bottom: 0;
   width: 1px;
   background: #666;
@@ -36,7 +39,7 @@ body {
   position: relative;
   width: 50%;
   padding: 10px 40px;
-  left: 50%;
+  left: 0%;
 }
 
 .timeline-item::before {
