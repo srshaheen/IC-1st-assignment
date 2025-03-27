@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./img/keegan-houser--Q_t4SCN8c4-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+  padding: 20px;
+}
+
+form h2 {
+  font-size: 32px;
+  padding-bottom: 20px;
+}
+
+form input {
+  width: 100%;
+  border: none;
+  font-size: 18px;
+  padding: 10px 30px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+  outline: none;
+}
+
+form input::placeholder {
+  color: rgb(255, 255, 255, 0.5);
+}
+
+form input[type="submit"] {
+  cursor: pointer;
+  color: white;
+}
+
+.input-group {
+  padding-top: 10px;
+}
+
+label {
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
+
+form p {
+  text-align: center;
+  padding: 10px;
+  color: yellowgreen;
+}
+
+.link-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-group a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+}
